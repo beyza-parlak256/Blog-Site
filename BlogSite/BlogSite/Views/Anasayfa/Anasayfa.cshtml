@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- Buraya slider gelecek -->
+@await Html.PartialAsync("~/Views/Slider/Slider.cshtml")
+
+<section id="content-index " class="mt-5 py-5">
+    <div class="row">
+        &nbsp;
+        <h2 class="col-lg-6 icerik pt-3 font-weight-bold mt-2 mb-4 wow fadeInRight">TÜM BLOGLAR</h2>&nbsp;
+    </div>
+</section>
+
+<!-- Buraya içerik gelecek -->
+@await Html.PartialAsync("~/Views/Icerik/Icerik.cshtml")
